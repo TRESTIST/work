@@ -1,0 +1,81 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  padding: 0 10px;
+  color: #fff;
+  background-color: #1d1d1d;
+  font-size: 42px;
+  line-height: 56px;
+}
+
+.conatiner {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  
+}
+
+.header__inner {
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 25px;
+
+}
+
+.header-link {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 85px;
+  line-height: 35px;
+}
+
+
+.header-title {
+  font-size: 122px;
+  line-height: 80px;
+  margin: 0 25px;
+}
+
+
+.header-link-inst {
+  background-image: url("../images/inst.svg");
+  width: 55px;
+  height: 55px;
+  margin-top: 85px;
+  margin-right: 25px;
+
+
+}
+
+
+.job__inner{
+    text-align: center;
+}
+
+.job__inner-img{
+    margin-bottom: 200px;
+}
+
+.job__inner-link{
+    background-image: url('../images/arrow.svg');
+    width: 61px;
+    height: 61px;
+    position: absolute;
+    left: 1195px;
+    z-index: 10 ;
+    margin-top: 555px;
+    transition: all 0.5s;
+}
+
+
+.job__inner-link:hover{
+ 
+    background-image: url('../images/arrow2.svg');
+    
+}
